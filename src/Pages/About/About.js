@@ -5,7 +5,7 @@ export const About = () => (
 
 <>
 <ContainnerB>
-<h1>Sobre</h1>
+<h1>Grupo 5</h1>
 
 <ContainnerA>
 

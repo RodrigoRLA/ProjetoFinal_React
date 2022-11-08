@@ -4,11 +4,16 @@ export const Body = styled.div`
 	margin: 0;
 	padding: 0;
 	background-color: #aaa;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	
 `
 export const Container = styled.div`
 	width: 500px;
 	margin: 100px auto;
+	margin-bottom: 18rem;
+	
+	
 `
 export const CartContainer = styled.div`
 	border-radius: 8px;
@@ -17,7 +22,7 @@ export const CartContainer = styled.div`
 
 export const HeaderCard = styled.div`
 	color: #fff;
-	background-color: #006CB5;
+	background-color: #243b55;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 `
@@ -31,22 +36,7 @@ export const CartItem = styled.div`
 `
 export const CartRow = styled.div``
 
-export const ProdutoFoto = styled.div`
-	top: -5px;
-	left: -5px;
-	width: 20px;
-	height: 20px;
-	color: #000;
-	font-size: 1em;
-	text-align:center;
-	position: absolute;
-	border-radius: 10px;
-	text-decoration: none;
-	display: inline-block;
-	background-color: #fff;
-	border: #dadada 1px solid;
-	box-shadow: 2px 2px 2px rgb(160,160,160);
-`
+
 
 export const QtdProduto = styled.div`
 	flex: 2;
@@ -56,16 +46,27 @@ export const PrecoProduto = styled.div``
 
 export const Total = styled.div`
 display: flex;
-
 flex-direction: row;
+text-align: center;
+justify-content: center;
 `
 
 export const Button = styled.button`
-	color: #fff;
-	border: none;
-	font-size: 1em;
-	padding: 5px 15px;
-	background-color: #006CB5;
+	cursor: pointer;
+    text-decoration: none;
+    background: transparent;
+    font-size: 1rem;
+    color: #141e30;
+    border: 2px solid  #243b55;
+    border-radius: 0.4rem;
+    margin:  1rem;
+    padding: 0.25rem 1rem;
+    transition: 0.5s all ease-out;
+    &:hover{
+        background-color: #147e82
+;
+        color: #ffbb33;
+    }
 `
 
 export const CartFooter = styled.div``

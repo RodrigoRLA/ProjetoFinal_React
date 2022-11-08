@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const ContainnerA = styled.div`
-display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 `
@@ -35,22 +37,14 @@ export const ContainnerB = styled.div`
     color: #fff;
 `
 export const ContainerSobre = styled.div`
-/* background-color: red; */
-margin-left: 10rem;
-margin-right: 10rem;
-padding-top: 1rem;
-padding-bottom: 1rem;
-gap: 0.5rem;
-display: grid;
-/* grid-template-columns: repeat(4, 1fr);
-@media (max-width: 1512px) {
-    grid-template-columns: repeat(3, 1fr);
-}
-@media (max-width: 1050px) {
-    grid-template-columns: repeat(2, 1fr);
-}
-@media (max-width: 680px) {
-    grid-template-columns: repeat(1, 1fr);
-} */
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 0.5rem;
+    display: grid;
+
 cursor: pointer;
 `
+
